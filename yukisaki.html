@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+  x {color : red}
+</style>
+<script type="text/javascript">
+	function setlink() {
+		<!-- location.searchは"？"で続く文字列 location.hashは"#"以降の部分を取得 -->
+		var str = location.search;
+		<!-- str = str.replace(/?/g, ""); -->
+		str = str.substr(1);
+		location.href = "mailto:yukisakikanri@sapporo-nakano.com?subject=response<" + str + ">&body=ホームページの行先を確認しました。";
+
+	}
+</script>
+</head>
+<body>
+<font color="navy">
+札幌中野冷機（株）行先情報<br>
+</font>
+<font color="black">
+--18/11/28 07:59--<br>
+岩鉄-><x>ﾌﾘｰ</x><br>
+宍戸-><x>ﾌﾘｰ</x><br>
+天満-><x>ﾌﾘｰ</x><br>
+高橋-><x>ﾌﾘｰ</x><br>
+水谷-><x>ﾌﾘｰ</x><br>
+●勅使川原-><x>ﾌﾘｰ</x><br>
+中野(剛)-><x>ﾌﾘｰ</x><br>
+池田-><x>ﾌﾘｰ</x><br>
+仲-><x>ﾌﾘｰ</x><br>
+馬場-><x>ﾌﾘｰ</x><br>
+大塚-><x>ﾌﾘｰ</x><br>
+---- コメント ----<br>
+ 
+<br>
+
+</font>
+<font color="green">
+<!-- <a href="javascript: setlink()" id="maillink">メールで返信</a> -->
+</font>
+</body>
+</html>
